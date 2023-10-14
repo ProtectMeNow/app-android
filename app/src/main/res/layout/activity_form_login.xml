@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.formcadastro.FormCadastro">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:background="@color/gray_background"
+        android:padding="15dp"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_senha"
+        android:background="@color/gray_background"
+        android:padding="15dp"
+        android:maxLines="1"
+        android:inputType="numberPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_login"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:backgroundTint="@color/login_bt"
+        android:layout_margin="30dp" />
+
+
+    <TextView
+        android:id="@+id/txt_telaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tela_cadastro"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
