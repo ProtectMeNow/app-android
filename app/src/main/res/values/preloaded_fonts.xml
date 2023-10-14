@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="preloaded_fonts" translatable="false">
-        <item>@font/bai_jamjuree</item>
-        <item>@font/bai_jamjuree_semibold</item>
-    </array>
-</resources>
