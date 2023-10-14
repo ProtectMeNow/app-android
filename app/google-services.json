@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "271744504380",
+    "project_id": "protect-me-now",
+    "storage_bucket": "protect-me-now.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271744504380:android:4875d564fce02d4d6e6939",
+        "android_client_info": {
+          "package_name": "com.example.protectmenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271744504380-i4brn6gkaqaqak5g9crdj9civ96a1vev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBycBDH19lMqC_QM_otKoc92ZhQL4IWRyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271744504380-i4brn6gkaqaqak5g9crdj9civ96a1vev.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271744504380-7mb20pnlkraq7jmktd90rmborqs8cakk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.unip.ProtectMeNow"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271744504380:android:f14b518b419a044a6e6939",
+        "android_client_info": {
+          "package_name": "com.protectmenowt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271744504380-i4brn6gkaqaqak5g9crdj9civ96a1vev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBycBDH19lMqC_QM_otKoc92ZhQL4IWRyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271744504380-i4brn6gkaqaqak5g9crdj9civ96a1vev.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271744504380-7mb20pnlkraq7jmktd90rmborqs8cakk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.unip.ProtectMeNow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
